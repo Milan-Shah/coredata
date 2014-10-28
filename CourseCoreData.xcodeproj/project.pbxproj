@@ -10,11 +10,14 @@
 		F1022FF419F55CCE00359AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1022FF319F55CCE00359AF0 /* main.m */; };
 		F1022FF719F55CCE00359AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1022FF619F55CCE00359AF0 /* AppDelegate.m */; };
 		F1022FFA19F55CCE00359AF0 /* CourseCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1022FF819F55CCE00359AF0 /* CourseCoreData.xcdatamodeld */; };
-		F1022FFD19F55CCE00359AF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1022FFC19F55CCE00359AF0 /* ViewController.m */; };
 		F102300019F55CCE00359AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1022FFE19F55CCE00359AF0 /* Main.storyboard */; };
 		F102300219F55CCE00359AF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F102300119F55CCE00359AF0 /* Images.xcassets */; };
 		F102300519F55CCE00359AF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F102300319F55CCE00359AF0 /* LaunchScreen.xib */; };
 		F102301119F55CCE00359AF0 /* CourseCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F102301019F55CCE00359AF0 /* CourseCoreDataTests.m */; };
+		F102301C19F55D2D00359AF0 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = F102301B19F55D2D00359AF0 /* Course.m */; };
+		F102301F19F55FA300359AF0 /* CoursesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F102301E19F55FA300359AF0 /* CoursesTableViewController.m */; };
+		F102302219F566A300359AF0 /* AddCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F102302119F566A300359AF0 /* AddCourseViewController.m */; };
+		F102302519F58E7A00359AF0 /* DisplayEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F102302419F58E7A00359AF0 /* DisplayEditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +37,21 @@
 		F1022FF519F55CCE00359AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1022FF619F55CCE00359AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F1022FF919F55CCE00359AF0 /* CourseCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CourseCoreData.xcdatamodel; sourceTree = "<group>"; };
-		F1022FFB19F55CCE00359AF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1022FFC19F55CCE00359AF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F1022FFF19F55CCE00359AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F102300119F55CCE00359AF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F102300419F55CCE00359AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F102300A19F55CCE00359AF0 /* CourseCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F102300F19F55CCE00359AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F102301019F55CCE00359AF0 /* CourseCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseCoreDataTests.m; sourceTree = "<group>"; };
+		F102301A19F55D2D00359AF0 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		F102301B19F55D2D00359AF0 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		F102301D19F55FA300359AF0 /* CoursesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesTableViewController.h; sourceTree = "<group>"; };
+		F102301E19F55FA300359AF0 /* CoursesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursesTableViewController.m; sourceTree = "<group>"; };
+		F102302019F566A300359AF0 /* AddCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCourseViewController.h; sourceTree = "<group>"; };
+		F102302119F566A300359AF0 /* AddCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCourseViewController.m; sourceTree = "<group>"; };
+		F102302319F58E7A00359AF0 /* DisplayEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayEditViewController.h; sourceTree = "<group>"; };
+		F102302419F58E7A00359AF0 /* DisplayEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayEditViewController.m; sourceTree = "<group>"; };
+		F1AC88E219F5985A000D4C27 /* ConverterDemo.sqldata */ = {isa = PBXFileReference; lastKnownFileType = file; path = ConverterDemo.sqldata; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +95,18 @@
 			children = (
 				F1022FF519F55CCE00359AF0 /* AppDelegate.h */,
 				F1022FF619F55CCE00359AF0 /* AppDelegate.m */,
-				F1022FFB19F55CCE00359AF0 /* ViewController.h */,
-				F1022FFC19F55CCE00359AF0 /* ViewController.m */,
 				F1022FFE19F55CCE00359AF0 /* Main.storyboard */,
+				F102302319F58E7A00359AF0 /* DisplayEditViewController.h */,
+				F102302419F58E7A00359AF0 /* DisplayEditViewController.m */,
+				F102302019F566A300359AF0 /* AddCourseViewController.h */,
+				F102302119F566A300359AF0 /* AddCourseViewController.m */,
+				F102301D19F55FA300359AF0 /* CoursesTableViewController.h */,
+				F102301E19F55FA300359AF0 /* CoursesTableViewController.m */,
 				F102300119F55CCE00359AF0 /* Images.xcassets */,
 				F102300319F55CCE00359AF0 /* LaunchScreen.xib */,
 				F1022FF819F55CCE00359AF0 /* CourseCoreData.xcdatamodeld */,
+				F102301A19F55D2D00359AF0 /* Course.h */,
+				F102301B19F55D2D00359AF0 /* Course.m */,
 				F1022FF119F55CCE00359AF0 /* Supporting Files */,
 			);
 			path = CourseCoreData;
@@ -99,6 +115,7 @@
 		F1022FF119F55CCE00359AF0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1AC88E219F5985A000D4C27 /* ConverterDemo.sqldata */,
 				F1022FF219F55CCE00359AF0 /* Info.plist */,
 				F1022FF319F55CCE00359AF0 /* main.m */,
 			);
@@ -223,9 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1022FFA19F55CCE00359AF0 /* CourseCoreData.xcdatamodeld in Sources */,
+				F102301F19F55FA300359AF0 /* CoursesTableViewController.m in Sources */,
 				F1022FF719F55CCE00359AF0 /* AppDelegate.m in Sources */,
-				F1022FFD19F55CCE00359AF0 /* ViewController.m in Sources */,
+				F102302519F58E7A00359AF0 /* DisplayEditViewController.m in Sources */,
+				F102302219F566A300359AF0 /* AddCourseViewController.m in Sources */,
 				F1022FF419F55CCE00359AF0 /* main.m in Sources */,
+				F102301C19F55D2D00359AF0 /* Course.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +436,7 @@
 				F102301619F55CCE00359AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F102301719F55CCE00359AF0 /* Build configuration list for PBXNativeTarget "CourseCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +445,7 @@
 				F102301919F55CCE00359AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
